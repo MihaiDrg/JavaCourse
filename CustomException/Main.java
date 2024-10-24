@@ -1,5 +1,3 @@
-package CustomException;
-
 class MihaiException extends Exception
 {
     public MihaiException(String string)
