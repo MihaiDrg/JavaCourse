@@ -28,6 +28,7 @@ public class QuestionService
             System.out.println(q.getOpt4());
             Scanner sc = new Scanner(System.in);
             selection[i++] = sc.nextLine();
+            sc.close();
         }
 
         for(String s :selection)
